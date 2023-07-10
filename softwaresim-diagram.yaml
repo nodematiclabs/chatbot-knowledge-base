@@ -1,0 +1,1515 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 781
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse
+      id: collapse
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1120
+  viewPortHeight: 781
+  horizontalOffset: -199
+  verticalOffset: -80
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectorVSKhv
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 526.87
+      y: 77
+    targetPoint:
+      x: 488.13
+      y: 119
+    sourceID: Prompt DataWChAI
+    targetID: PaLM AILtBNq
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Straight ConnectorxDsvl
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 623
+      y: 59.42
+    targetPoint:
+      x: 714.88
+      y: 119
+    sourceID: Prompt DataWChAI
+    targetID: ElasticsearchWtDgA
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight ConnectorJVBd9
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: -28
+      y: 409.79
+    targetPoint:
+      x: 53.13
+      y: 450
+    sourceID: PDF FileSAiyKI6WAD
+    targetID: Document AIAhp7e
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Straight ConnectorRpBsE
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: -57
+      y: 500
+    targetPoint:
+      x: 4
+      y: 500
+    sourceID: PDF FileSAiyKIWV7r
+    targetID: Document AIAhp7e
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Straight ConnectorabQsg
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: -21
+      y: 591
+    targetPoint:
+      x: 57.85
+      y: 550
+    sourceID: PDF FileSAiyK
+    targetID: Document AIAhp7e
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Straight ConnectorhEmiv
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 279.22
+      y: 450
+    targetPoint:
+      x: 392
+      y: 404.97
+    sourceID: Document AIAhp7e
+    targetID: Parsed DataTI292
+    addInfo:
+      viewConnector: 0
+    zIndex: 17
+  - id: Straight ConnectorGkZTv
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 304
+      y: 500
+    targetPoint:
+      x: 392
+      y: 500
+    sourceID: Document AIAhp7e
+    targetID: Parsed DataTI292EGBUf
+    addInfo:
+      viewConnector: 0
+    zIndex: 18
+  - id: Straight ConnectorXTeUi
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 277.07
+      y: 550
+    targetPoint:
+      x: 392
+      y: 596.69
+    sourceID: Document AIAhp7e
+    targetID: Parsed DataTI292EGBUfKu6P7
+    addInfo:
+      viewConnector: 0
+    zIndex: 19
+  - id: Straight ConnectorvNWua
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 492
+      y: 407.26
+    targetPoint:
+      x: 590.22
+      y: 451
+    sourceID: Parsed DataTI292
+    targetID: Vertex AIPo7tF
+    addInfo:
+      viewConnector: 0
+    zIndex: 24
+  - id: Straight ConnectorsUxxm
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 492
+      y: 500.19
+    targetPoint:
+      x: 552.5
+      y: 500.43
+    sourceID: Parsed DataTI292EGBUf
+    targetID: Vertex AIPo7tF
+    addInfo:
+      viewConnector: 0
+    zIndex: 25
+  - id: Straight ConnectorQR1ug
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 492
+      y: 594.74
+    targetPoint:
+      x: 590.22
+      y: 551
+    sourceID: Parsed DataTI292EGBUfKu6P7
+    targetID: Vertex AIPo7tF
+    addInfo:
+      viewConnector: 0
+    zIndex: 26
+  - id: Straight ConnectorPekGP
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 797.97
+      y: 451
+    targetPoint:
+      x: 874
+      y: 411.19
+    sourceID: Vertex AIPo7tF
+    targetID: Embedding DataiGeQa
+    addInfo:
+      viewConnector: 0
+    zIndex: 27
+  - id: Straight ConnectorbnLT7
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 852.5
+      y: 500.42
+    targetPoint:
+      x: 913
+      y: 500.19
+    sourceID: Vertex AIPo7tF
+    targetID: Embedding DataiGeQapBLsK
+    addInfo:
+      viewConnector: 0
+    zIndex: 28
+  - id: Straight ConnectorVKs3F
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 797.97
+      y: 551
+    targetPoint:
+      x: 874
+      y: 590.81
+    sourceID: Vertex AIPo7tF
+    targetID: Embedding DataiGeQapBLsKXAAeO
+    addInfo:
+      viewConnector: 0
+    zIndex: 29
+  - id: Dashed Straight ConnectorAAlux
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 874
+      y: 385
+    targetPoint:
+      x: 492
+      y: 385
+    sourceID: Embedding DataiGeQa
+    targetID: Parsed DataTI292
+    addInfo:
+      viewConnector: 0
+    zIndex: 30
+  - id: Straight ConnectorXVpTA
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 442
+      y: 335
+    targetPoint:
+      x: 442
+      y: 219
+    sourceID: Parsed DataTI292
+    targetID: PaLM AILtBNq
+    addInfo:
+      viewConnector: 0
+    zIndex: 31
+  - id: Straight ConnectormlRnm
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 822.55
+      y: 219
+    targetPoint:
+      x: 893.44
+      y: 335
+    sourceID: ElasticsearchWtDgA
+    targetID: Embedding DataiGeQa
+    addInfo:
+      viewConnector: 0
+    zIndex: 32
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #127E8A;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png);"></div><div
+        class="c-text"><div class="c-title">PaLM AI</div><div
+        class="c-short-description">Transformer-based AI model powering a wide
+        range of processing/reasoning tasks</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">PaLM
+        AI</div></div></div></div></div>'
+    id: PaLM AILtBNq
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PaLM AI
+        shortDescription: Transformer-based AI model powering a wide range of
+          processing/reasoning tasks
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PaLM AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PaLM AI
+      editableName: PaLM AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: PaLM AI
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2__044448_vb2ppg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png
+      color: "#127E8A"
+      controlText: PaLM AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 442
+    offsetY: 169
+    zIndex: 2
+    inEdges:
+      - Straight ConnectorVSKhv
+      - Straight ConnectorXVpTA
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #007870;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Elasticsearch_Black_87_ygth1o.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Elasticsearch_ax6xxj.png);"></div><div
+        class="c-text"><div class="c-title">Elasticsearch (Vectors)</div><div
+        class="c-short-description">Search and analysis of large datasets in
+        real-time</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Elasticsearch</div></div></div></div></div>'
+    id: ElasticsearchWtDgA
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Elasticsearch
+        shortDescription: Search and analysis of large datasets in real-time
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Elasticsearch
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Elasticsearch
+      editableName: Elasticsearch (Vectors)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Logger
+          type: Storage
+          portsIn:
+            put: logs
+            get: fetch
+          portsOut:
+            stored: logs
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Logger
+      name: Elasticsearch
+      category: 1
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Elasticsearch_ax6xxj.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Elasticsearch__044448_wy1wdh.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Elasticsearch_Black_87_ygth1o.png
+      color: "#007870"
+      controlText: Elasticsearch
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 792
+    offsetY: 169
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorxDsvl
+    outEdges:
+      - Straight ConnectormlRnm
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_Black_87_nfatqu.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_qaidtu.png);
+        border-radius: 10px"></div></div></div>'
+    id: Prompt DataWChAI
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Prompt Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Prompt Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Prompt Data
+      editableName: Prompt Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Prompt Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_qaidtu.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement__044448_q1e9r7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_Black_87_nfatqu.png
+      color: "#4e3391"
+      controlText: Prompt Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 573
+    offsetY: 27
+    zIndex: 4
+    outEdges:
+      - Straight ConnectorVSKhv
+      - Straight ConnectorxDsvl
+  - shape:
+      type: Basic
+      cornerRadius: 10
+    id: Logical GroupH4STF
+    width: 676.0000000000001
+    height: 265
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 617
+    offsetY: 97.5
+    style:
+      fill: none
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+      strokeWidth: 2
+    annotations:
+      - id: Uf9TT
+        content: Live Chatbot System
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      size: lg
+    zIndex: 1
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png);
+        border-radius: 10px"></div></div></div>'
+    id: PDF FileSAiyK
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PDF File
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PDF File
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PDF File
+      editableName: PDF File
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: PDF File
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF__044448_v2_supg5y.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png
+      color: "#4e3391"
+      controlText: PDF File
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: -71
+    offsetY: 617
+    zIndex: 7
+    outEdges:
+      - Straight ConnectorabQsg
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png);
+        border-radius: 10px"></div></div></div>'
+    id: PDF FileSAiyKI6WAD
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PDF File
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PDF File
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PDF File
+      editableName: PDF File
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: PDF File
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF__044448_v2_supg5y.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png
+      color: "#4e3391"
+      controlText: PDF File
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: -78
+    offsetY: 385
+    zIndex: 8
+    outEdges:
+      - Straight ConnectorJVBd9
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png);
+        border-radius: 10px"></div></div></div>'
+    id: PDF FileSAiyKIWV7r
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PDF File
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PDF File
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PDF File
+      editableName: PDF File
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: PDF File
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF_v2_sqzd83.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_PDF__044448_v2_supg5y.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199388/sds_logos/Document_PDF_Black_87_v2_rysajs.png
+      color: "#4e3391"
+      controlText: PDF File
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: -107
+    offsetY: 500
+    zIndex: 9
+    outEdges:
+      - Straight ConnectorRpBsE
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png);"></div><div
+        class="c-text"><div class="c-title">Document AI</div><div
+        class="c-short-description">Extracting structured data and insights from
+        unstructured documents</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Document AIAhp7e
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Document AI
+        shortDescription: Extracting structured data and insights from unstructured documents
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Document AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Document AI
+      editableName: Document AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Document AI
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_dik8ue.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai__044448_svofdf.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/document_ai_Black_87_dijqgu.png
+      color: "#3871e0"
+      controlText: Document AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 154
+    offsetY: 500
+    zIndex: 10
+    inEdges:
+      - Straight ConnectorJVBd9
+      - Straight ConnectorRpBsE
+      - Straight ConnectorabQsg
+    outEdges:
+      - Straight ConnectorhEmiv
+      - Straight ConnectorGkZTv
+      - Straight ConnectorXTeUi
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png);
+        border-radius: 10px"></div></div></div>'
+    id: Parsed DataTI292
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Parsed Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Parsed Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Parsed Data
+      editableName: Parsed Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Parsed Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed__044448_v2_iiqqlx.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png
+      color: "#4e3391"
+      controlText: Parsed Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 442
+    offsetY: 385
+    zIndex: 14
+    inEdges:
+      - Straight ConnectorhEmiv
+      - Dashed Straight ConnectorAAlux
+    outEdges:
+      - Straight ConnectorvNWua
+      - Straight ConnectorXVpTA
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png);
+        border-radius: 10px"></div></div></div>'
+    id: Parsed DataTI292EGBUf
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Parsed Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Parsed Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Parsed Data
+      editableName: Parsed Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Parsed Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed__044448_v2_iiqqlx.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png
+      color: "#4e3391"
+      controlText: Parsed Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 442
+    offsetY: 500
+    zIndex: 15
+    inEdges:
+      - Straight ConnectorGkZTv
+    outEdges:
+      - Straight ConnectorsUxxm
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png);
+        border-radius: 10px"></div></div></div>'
+    id: Parsed DataTI292EGBUfKu6P7
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Parsed Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Parsed Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Parsed Data
+      editableName: Parsed Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Parsed Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_v2_cjpqwt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed__044448_v2_iiqqlx.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199386/sds_logos/Document_destroyed_Black_87_v2_n1van9.png
+      color: "#4e3391"
+      controlText: Parsed Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 442
+    offsetY: 617
+    zIndex: 16
+    inEdges:
+      - Straight ConnectorXTeUi
+    outEdges:
+      - Straight ConnectorQR1ug
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png);
+        border-radius: 10px"></div></div></div>'
+    id: Embedding DataiGeQa
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Embedding Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Embedding Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Embedding Data
+      editableName: Embedding Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Embedding Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3__044448_wfklha.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png
+      color: "#4e3391"
+      controlText: Embedding Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 924
+    offsetY: 385
+    zIndex: 20
+    inEdges:
+      - Straight ConnectorPekGP
+      - Straight ConnectormlRnm
+    outEdges:
+      - Dashed Straight ConnectorAAlux
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png);
+        border-radius: 10px"></div></div></div>'
+    id: Embedding DataiGeQapBLsK
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Embedding Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Embedding Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Embedding Data
+      editableName: Embedding Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Embedding Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3__044448_wfklha.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png
+      color: "#4e3391"
+      controlText: Embedding Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 963
+    offsetY: 500
+    zIndex: 21
+    inEdges:
+      - Straight ConnectorbnLT7
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png);
+        border-radius: 10px"></div></div></div>'
+    id: Embedding DataiGeQapBLsKXAAeO
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Embedding Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Embedding Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Embedding Data
+      editableName: Embedding Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Embedding Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_cldukf.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3__044448_wfklha.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687938578/Document_table_v3_Black_87_w0gbhq.png
+      color: "#4e3391"
+      controlText: Embedding Data
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 924
+    offsetY: 617
+    zIndex: 22
+    inEdges:
+      - Straight ConnectorVKs3F
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI (Embeddings API)</div><div
+        class="c-short-description">Building, deploying, and managing machine
+        learning models at scale</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Vertex AIPo7tF
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Building, deploying, and managing machine learning models at scale
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Vertex AI (Embeddings API)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 702.5
+    offsetY: 501
+    zIndex: 23
+    inEdges:
+      - Straight ConnectorvNWua
+      - Straight ConnectorsUxxm
+      - Straight ConnectorQR1ug
+    outEdges:
+      - Straight ConnectorPekGP
+      - Straight ConnectorbnLT7
+      - Straight ConnectorVKs3F
+  - shape:
+      type: Basic
+      cornerRadius: 10
+    id: Logical GroupseqB5
+    width: 1201.0000000000002
+    height: 356.99999999999994
+    previewSize:
+      width: 320
+      height: 120
+    offsetX: 427.5
+    offsetY: 500
+    style:
+      fill: none
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 4 4
+      strokeWidth: 2
+    annotations:
+      - id: B6voh
+        content: Knowledge Base Building
+        offset:
+          x: 0
+          y: 0
+        horizontalAlignment: Left
+        verticalAlignment: Bottom
+        style:
+          fill: white
+          fontSize: 14
+          bold: true
+          color: 2A2A2A
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: annotation
+      size: lg
+    zIndex: 0
+selectedItems:
+  width: 0
+  height: 0
